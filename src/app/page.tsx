@@ -28,14 +28,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          {/* <Image
-            className="relative"
-            src="/favicon.png"
-            alt="MARVA Logo Logo"
-            width={50}
-            height={50}
-            priority
-          /> */}
+
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Die intuitivste Seminar-und Kursverwaltung am Markt
           </p>
