@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import Datenschutz from "../components/Datenschutz";
 
@@ -11,7 +10,7 @@ const Impressum = () => {
           className="flex-col py-24 relative flex place-items-center"
           href="/"
         >
-          <Image
+          <img
             className="relative"
             src="/Koschier_SE.png"
             alt="Koschier Software-Entwicklung Logo"

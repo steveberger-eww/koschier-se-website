@@ -1,17 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen max-h-screen flex-col items-center justify-around p-24">
       <div className="relative z-[-1] flex place-items-center">
-        <Image
+        <img
           className="relative"
           src="/Koschier_SE.png"
           alt="Koschier Software-Entwicklung Logo"
           width={600}
           height={174}
-          priority
         />
       </div>
 
