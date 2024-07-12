@@ -1,1 +1,1 @@
-## Just a simple landing Page
+## Just a simple landing Page made with create-next-app (ツ)
