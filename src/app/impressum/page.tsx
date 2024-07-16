@@ -5,7 +5,7 @@ import Datenschutz from "../components/Datenschutz";
 const Impressum = () => {
   return (
     <main className="min-h-screen ">
-      <div className="mx-auto w-max">
+      <div className="relative mx-auto px-24">
         <Link
           className="flex-col py-24 relative flex place-items-center"
           href="/"
@@ -19,6 +19,17 @@ const Impressum = () => {
           />
         </Link>
       </div>
+
+      {/* <main className="flex min-h-screen max-h-screen flex-col items-center justify-around">
+      <div className="relative z-[-1] flex place-items-center">
+        <img
+          className="relative"
+          src="/Koschier_SE.png"
+          alt="Koschier Software-Entwicklung Logo"
+          width={600}
+          height={174}
+        />
+      </div> */}
 
       <div className="py-5 px-5 container mx-auto">
         <h1 className="text-xl lg:text-xl font-bold">Impressum</h1>
