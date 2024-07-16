@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const listItems = [
   "für die Kontaktaufnahme,",
@@ -124,7 +125,7 @@ function Datenschutz() {
         </p>
       </div>
 
-      <div className="mt-6 mb-12">
+      {/* <div className="mt-6 mb-12">
         <h1 className="font-bold text-xl mb-3">Google Analytics und Cookies</h1>
         <p className="mb-3">
           Auf unserer Website benutzen wir Google Analytics, einen
@@ -156,7 +157,7 @@ function Datenschutz() {
           herunterladen und installieren:
           https://tools.google.com/dlpage/gaoptout?hl=de
         </p>
-      </div>
+      </div> */}
 
       <div className="mt-6 mb-12">
         <h1 className="font-bold text-xl mb-3">Speicherort</h1>
@@ -187,7 +188,7 @@ function Datenschutz() {
         </p>
       </div>
 
-      <div className="mt-6 mb-12">
+      {/* <div className="mt-6 mb-12">
         <h1 className="font-bold text-xl mb-3">Cookies</h1>
         <p className="mb-3">
           Rechtsgrundlagen für die Verarbeitung von personenbezogenen Daten in
@@ -203,7 +204,7 @@ function Datenschutz() {
           Wenn du die personenbezogenen Daten nicht bereitstellst, können wir
           deine Einwilligungen nicht verwalten.
         </p>
-      </div>
+      </div> */}
 
       <div className="mt-6 mb-12">
         <h1 className="font-bold text-xl mb-3">
@@ -214,12 +215,24 @@ function Datenschutz() {
           und an technische und organisatorische Entwicklungen anzupassen.
         </p>
       </div>
+
       <div className="mt-6 mb-36">
         <h1 className="font-bold text-xl mb-3">Verantwortliche Stelle </h1>
         <p className="mb-3">
           Für Rückfragen jeglicher Art wenden Sie sich bitte an:
         </p>
         <ul>{listContactInfo}</ul>
+
+        <div className="mb-16 mt-16 grid col-1 place-items-start text-center lg:mb-0 lg:w-full lg:text-left">
+          <Link href="/" rel="noopener noreferrer">
+            <h2 className="text-2xl font-semibold hover:underline">
+              Startseite{" "}
+              <span className="order-1 inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                &lt;-
+              </span>
+            </h2>
+          </Link>
+        </div>
       </div>
     </div>
   );
