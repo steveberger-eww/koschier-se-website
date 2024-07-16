@@ -5,7 +5,7 @@ import Datenschutz from "../components/Datenschutz";
 const Impressum = () => {
   return (
     <main className="min-h-screen ">
-      <div className="relative mx-auto px-24">
+      <div className="relative mx-auto p-12 lg:px-24">
         <Link
           className="flex-col py-24 relative flex place-items-center"
           href="/"

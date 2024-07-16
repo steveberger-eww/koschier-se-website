@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen max-h-screen flex-col items-center justify-around p-24">
+    <main className="flex min-h-screen max-h-screen flex-col items-center justify-around p-12 lg:p-24">
       <div className="relative z-[-1] flex place-items-center">
         <img
           className="relative"
@@ -20,12 +20,25 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className="text-2xl font-semibold">
+          {/* <h2 className="text-2xl font-semibold">
             MARVA{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-          </h2>
+          </h2> */}
+          <div className="flex justify-center mb-2">
+            <img
+              src="/MARVA_Logo.svg"
+              alt="MARVA Logo"
+              className="relative"
+              width={150}
+            />
+            <div className="justify-start">
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
+            </div>
+          </div>
 
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             Die intuitivste Seminar-und Kursverwaltung am Markt
