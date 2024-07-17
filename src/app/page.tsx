@@ -31,13 +31,13 @@ export default function Home() {
               src="/MARVA_Logo.svg"
               alt="MARVA Logo"
               className="relative"
-              width={150}
+              width={250}
             />
-            <div className="justify-start">
+            {/* <div className="justify-start">
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
-            </div>
+            </div> */}
           </div>
 
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
@@ -61,7 +61,7 @@ export default function Home() {
         </a>
 
         <a
-          href="mail:office@koschier-software.at"
+          href="mailto:office@koschier-software.at"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"

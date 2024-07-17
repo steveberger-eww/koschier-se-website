@@ -227,7 +227,7 @@ function Datenschutz() {
           <Link href="/" rel="noopener noreferrer">
             <h2 className="text-2xl font-semibold hover:underline">
               Startseite{" "}
-              <span className="order-1 inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 &lt;-
               </span>
             </h2>
