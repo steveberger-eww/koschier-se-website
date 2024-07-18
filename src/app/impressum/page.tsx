@@ -4,23 +4,18 @@ import Datenschutz from "../components/Datenschutz";
 
 const Impressum = () => {
   return (
-    <main className="min-h-screen ">
-      <div className="relative mx-auto p-12 lg:px-24">
-        <Link
-          className="flex-col py-24 relative flex place-items-center"
-          href="/"
-        >
-          <img
-            className="relative"
-            src="/Koschier_SE.png"
-            alt="Koschier Software-Entwicklung Logo"
-            width={600}
-            height={174}
-          />
-        </Link>
+    <main className="flex min-h-screen max-h-screen flex-col items-center p-12 lg:p-24">
+      <div className="relative mx-auto p-6 lg:p-12">
+        <img
+          className="relative"
+          src="/Koschier_SE.png"
+          alt="Koschier Software-Entwicklung Logo"
+          width={600}
+          height={174}
+        />
       </div>
 
-      <div className="py-5 px-5 container mx-auto">
+      <div className="mt-16 py-5 px-5 container mx-auto">
         <h1 className="text-xl lg:text-xl font-bold">Impressum</h1>
         <h2 className="font-semi lg:text-xl mt-3">
           Informationen und Offenlegung gemäß §5 (1) ECG, § 25 MedienG, § 63
