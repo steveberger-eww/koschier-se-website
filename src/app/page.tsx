@@ -2,37 +2,40 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen max-h-screen flex-col justify-between items-center p-12 lg:p-24">
-      <div className="relative mx-auto p-6 lg:p-12">
+    <main className="flex min-h-screen max-h-screen flex-col justify-between items-center p-12 lg:p-12">
+      <div className="mt-16 relative mx-auto p-6">
         <img
           className="relative"
           src="/Koschier_SE.png"
           alt="Koschier Software-Entwicklung Logo"
-          width={600}
-          height={174}
+          width={356}
+          height={103}
         />
       </div>
 
-      <div className="mt-16 mb-16 grid text-center lg:mb-0 lg:mt-[-10px]">
-        <a
-          href="https://marva.eu"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="flex justify-center mb-2">
-            <img
-              src="/MARVA_Logo.svg"
-              alt="MARVA Logo"
-              className="relative"
-              width={250}
-            />
+      <div className="mt-[-50px] mb-16 grid text-center lg:mb-16">
+        <div className="py-20">
+          <div className="rounded-lg border border-transparent px-5 py-6 transition-colors hover:border-gray-300 hover:bg-gray-100">
+            <a
+              href="https://marva.eu"
+              className="group"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex justify-center mb-2">
+                <img
+                  src="/MARVA_Logo.svg"
+                  alt="MARVA Logo"
+                  className="relative"
+                  width={250}
+                />
+              </div>
+              <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                Die intuitivste Seminar-und Kursverwaltung am Markt
+              </p>
+            </a>
           </div>
-
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Die intuitivste Seminar-und Kursverwaltung am Markt
-          </p>
-        </a>
+        </div>
 
         <a
           href="tel:+43013911100"
@@ -67,7 +70,7 @@ export default function Home() {
         </a>
 
         <a
-          href="geo: 48.197465649386196, 16.358314071174796"
+          href="#"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 "
           target="_blank"
           rel="noopener noreferrer"
@@ -89,13 +92,13 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="mb-16 grid col-1 place-items-center text-center lg:mb-0 lg:w-full lg:text-left">
+      <div className="mb-16 p-6 grid col-1 place-items-center text-center lg:w-full lg:text-left">
         <Link
           href="impressum"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           rel="noopener noreferrer"
         >
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-xl lg:text-2xl font-semibold">
             Impressum & Datenschutz{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
